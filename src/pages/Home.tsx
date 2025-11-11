@@ -63,22 +63,6 @@ const Home = () => {
                 </Button>
               </Link>
             </div>
-
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-8 pt-8 border-t border-border">
-              <div>
-                <div className="text-4xl font-bold text-primary mb-1">5+</div>
-                <div className="text-sm text-muted-foreground">Years Experience</div>
-              </div>
-              <div>
-                <div className="text-4xl font-bold text-primary mb-1">50+</div>
-                <div className="text-sm text-muted-foreground">Projects Completed</div>
-              </div>
-              <div>
-                <div className="text-4xl font-bold text-primary mb-1">30+</div>
-                <div className="text-sm text-muted-foreground">Happy Clients</div>
-              </div>
-            </div>
           </div>
         </div>
 
