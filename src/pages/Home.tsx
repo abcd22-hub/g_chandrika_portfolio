@@ -155,6 +155,104 @@ const Home = () => {
             </div>
           </div>
         </section>
+
+        {/* Education & Experience Section */}
+        <section className="py-20 border-t border-border">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center space-y-4 mb-12">
+              <h2 className="text-4xl font-bold text-foreground">Education & Experience</h2>
+              <p className="text-lg text-muted-foreground">My academic background and professional journey</p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              {/* Education */}
+              <div className="bg-card border border-border rounded-lg p-6 hover:border-primary transition-colors">
+                <h3 className="text-2xl font-bold text-foreground mb-4">Education</h3>
+                <div className="space-y-3">
+                  <p className="text-lg font-semibold text-primary">Bachelor of Design</p>
+                  <p className="text-foreground">Stanford University</p>
+                  <p className="text-sm text-muted-foreground">2015 - 2019</p>
+                  <div className="pt-3 space-y-2">
+                    <p className="text-sm text-muted-foreground flex items-start">
+                      <span className="text-primary mr-2">▸</span>
+                      <span>Focus: Human-Computer Interaction & Visual Design</span>
+                    </p>
+                    <p className="text-sm text-muted-foreground flex items-start">
+                      <span className="text-primary mr-2">▸</span>
+                      <span>Design Thinking Club President</span>
+                    </p>
+                    <p className="text-sm text-muted-foreground flex items-start">
+                      <span className="text-primary mr-2">▸</span>
+                      <span>Dean's List all semesters</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Key Experiences */}
+              <div className="bg-card border border-border rounded-lg p-6 hover:border-primary transition-colors">
+                <h3 className="text-2xl font-bold text-foreground mb-4">Key Experiences</h3>
+                <div className="space-y-4">
+                  <div>
+                    <p className="font-semibold text-foreground">Senior UX Designer</p>
+                    <p className="text-sm text-primary">TechCorp Inc.</p>
+                    <p className="text-xs text-muted-foreground mb-2">2021 - Present</p>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-foreground">UI Designer</p>
+                    <p className="text-sm text-primary">Creative Studio</p>
+                    <p className="text-xs text-muted-foreground mb-2">2019 - 2021</p>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-foreground">Freelance Designer</p>
+                    <p className="text-sm text-primary">Various Clients</p>
+                    <p className="text-xs text-muted-foreground">2018 - 2019</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Skills & Tools */}
+            <div className="bg-card border border-border rounded-lg p-8 mb-8">
+              <h3 className="text-2xl font-bold text-foreground mb-6 text-center">Skills & Tools</h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div className="text-center space-y-2">
+                  <div className="w-16 h-16 mx-auto bg-primary/10 rounded-lg flex items-center justify-center">
+                    <Palette className="w-8 h-8 text-primary" />
+                  </div>
+                  <p className="text-sm font-medium text-foreground">Figma</p>
+                </div>
+                <div className="text-center space-y-2">
+                  <div className="w-16 h-16 mx-auto bg-primary/10 rounded-lg flex items-center justify-center">
+                    <Code className="w-8 h-8 text-primary" />
+                  </div>
+                  <p className="text-sm font-medium text-foreground">HTML/CSS/JS</p>
+                </div>
+                <div className="text-center space-y-2">
+                  <div className="w-16 h-16 mx-auto bg-primary/10 rounded-lg flex items-center justify-center">
+                    <Users className="w-8 h-8 text-primary" />
+                  </div>
+                  <p className="text-sm font-medium text-foreground">Usability Testing</p>
+                </div>
+                <div className="text-center space-y-2">
+                  <div className="w-16 h-16 mx-auto bg-primary/10 rounded-lg flex items-center justify-center">
+                    <Code className="w-8 h-8 text-primary" />
+                  </div>
+                  <p className="text-sm font-medium text-foreground">React</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <Link to="/experience">
+                <Button size="lg" className="gap-2">
+                  View Full Experience
+                  <ArrowRight className="w-5 h-5" />
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );
