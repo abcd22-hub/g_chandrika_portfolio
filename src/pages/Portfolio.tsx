@@ -67,20 +67,6 @@ const Portfolio = () => {
         ))}
       </div>
 
-      {/* CTA Section */}
-      <div className="text-center mt-20 bg-card border border-border rounded-2xl p-12">
-        <h2 className="text-3xl font-bold text-foreground mb-4">
-          Interested in working together?
-        </h2>
-        <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-          I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
-        </p>
-        <a href="/contact">
-          <button className="px-8 py-4 bg-primary text-primary-foreground rounded-lg font-semibold hover:shadow-glow transition-all duration-300">
-            Get in Touch
-          </button>
-        </a>
-      </div>
     </div>
   );
 };

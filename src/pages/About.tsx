@@ -51,19 +51,8 @@ const About = () => {
       </div>
 
       {/* Detailed Bio */}
-      <div className="grid lg:grid-cols-2 gap-12 mb-20 items-center">
-        <div className="relative">
-          <div className="absolute inset-0 bg-primary/20 rounded-3xl blur-3xl"></div>
-          <div className="relative rounded-3xl overflow-hidden border-4 border-primary shadow-glow">
-            <img 
-              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop" 
-              alt="Design workspace showcasing creative process"
-              className="w-full h-full object-cover"
-            />
-          </div>
-        </div>
-
-        <div className="space-y-6">
+      <div className="mb-20">
+        <div className="space-y-6 max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-foreground">Hi, I'm <span className="text-primary">Chandrika</span></h2>
           <p className="text-muted-foreground leading-relaxed">
             I'm a student UI/UX designer at <strong className="text-foreground">ICFAI University</strong>, 
