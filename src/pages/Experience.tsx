@@ -3,43 +3,45 @@ import ExperienceItem from "@/components/ExperienceItem";
 const Experience = () => {
   const experiences = [
     {
-      company: "TechCorp Solutions",
-      role: "Senior UI/UX Designer",
-      duration: "2021 - Present",
+      company: "CloudBox99",
+      role: "Web Development UI/UX Intern",
+      duration: "Jun 2024 - Jul 2024",
       responsibilities: [
-        "Led design efforts for 15+ enterprise applications, improving user satisfaction by 40%",
-        "Collaborated with cross-functional teams to deliver pixel-perfect interfaces",
-        "Mentored junior designers and established design system standards"
+        "Designed wireframes, user flows, and UI mockups in Figma for two live web products",
+        "Developed and presented pitch decks and interactive prototypes for internal projects",
+        "Practiced responsive design and collaborated within an agile development team",
+        "Incorporated user feedback into iterative design cycles"
       ]
     },
     {
-      company: "Digital Innovators Inc.",
-      role: "UI/UX Designer",
-      duration: "2019 - 2021",
+      company: "Pehchaan The Street School Trust",
+      role: "Graphic Design Intern",
+      duration: "Dec 2024 - Apr 2025",
       responsibilities: [
-        "Designed and prototyped mobile and web applications for diverse clients",
-        "Conducted user research and usability testing to inform design decisions",
-        "Worked closely with developers to ensure seamless design implementation"
+        "Created campaign graphics for digital media using Canva, focusing on clarity and engagement",
+        "Collaborated with mentors and volunteers to deliver timely, high-quality assets",
+        "Supported principles of branding, accessibility, and visual storytelling"
       ]
     },
     {
-      company: "Creative Studio",
-      role: "Junior Designer",
-      duration: "2018 - 2019",
+      company: "Game Development Club, IcfaiTech",
+      role: "Documentation Head",
+      duration: "Jan 2024 - Present",
       responsibilities: [
-        "Created wireframes, mockups, and prototypes for client projects",
-        "Assisted in developing brand identities and marketing materials",
-        "Participated in brainstorming sessions and design critiques"
+        "Led documentation and reporting for club events and workshops",
+        "Ensured professional standards in all user-facing communications and materials",
+        "Supported online content, logistics planning, and outcome reporting across student-led initiatives"
       ]
     },
     {
-      company: "Freelance",
-      role: "Freelance Designer",
-      duration: "2017 - 2018",
+      company: "Freelance UI/UX Designer",
+      role: "Pickle Website Project",
+      duration: "Sep 2025 - Nov 2025",
       responsibilities: [
-        "Delivered custom design solutions for small businesses and startups",
-        "Managed multiple projects simultaneously while maintaining quality",
-        "Built strong client relationships through excellent communication"
+        "Delivered paid UI/UX design and front-end development for a small business's pickle brand website",
+        "Designed user-friendly layouts and interactive interfaces using HTML, CSS, and JavaScript",
+        "Conducted client requirements gathering, usability revisions, and optimized site for responsiveness",
+        "Managed project independently and delivered creative, conversion-focused solutions"
       ]
     },
   ];
@@ -65,47 +67,115 @@ const Experience = () => {
         ))}
       </div>
 
-      {/* Education Section */}
+      {/* Certifications Section */}
       <div className="mt-20">
         <h2 className="text-3xl font-bold text-foreground text-center mb-12">
-          Education & <span className="text-primary">Certifications</span>
+          <span className="text-primary">Certifications</span> & Courses
         </h2>
         
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          <div className="bg-card border border-border rounded-xl p-6 hover:border-primary transition-all duration-300">
-            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-              <span className="text-2xl">🎓</span>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          <div className="bg-card border border-border rounded-xl p-5 hover:border-primary transition-all duration-300">
+            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+              <span className="text-xl">📊</span>
             </div>
-            <h3 className="text-xl font-bold text-foreground mb-2">Bachelor of Design</h3>
-            <p className="text-primary font-medium mb-2">Design Institute</p>
-            <p className="text-sm text-muted-foreground">2013 - 2017</p>
+            <h3 className="text-lg font-bold text-foreground mb-1">Introduction to Programming</h3>
+            <p className="text-primary font-medium text-sm">Kaggle</p>
           </div>
 
-          <div className="bg-card border border-border rounded-xl p-6 hover:border-primary transition-all duration-300">
-            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-              <span className="text-2xl">📜</span>
+          <div className="bg-card border border-border rounded-xl p-5 hover:border-primary transition-all duration-300">
+            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+              <span className="text-xl">🐍</span>
             </div>
-            <h3 className="text-xl font-bold text-foreground mb-2">UX Design Certification</h3>
-            <p className="text-primary font-medium mb-2">Google UX Design Professional</p>
-            <p className="text-sm text-muted-foreground">2020</p>
+            <h3 className="text-lg font-bold text-foreground mb-1">Python Programming</h3>
+            <p className="text-primary font-medium text-sm">Kaggle</p>
           </div>
 
-          <div className="bg-card border border-border rounded-xl p-6 hover:border-primary transition-all duration-300">
-            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-              <span className="text-2xl">🏆</span>
+          <div className="bg-card border border-border rounded-xl p-5 hover:border-primary transition-all duration-300">
+            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+              <span className="text-xl">📈</span>
             </div>
-            <h3 className="text-xl font-bold text-foreground mb-2">Interaction Design</h3>
-            <p className="text-primary font-medium mb-2">Interaction Design Foundation</p>
-            <p className="text-sm text-muted-foreground">2019</p>
+            <h3 className="text-lg font-bold text-foreground mb-1">Exploratory Data Analysis</h3>
+            <p className="text-primary font-medium text-sm">Future SkillsPrime</p>
           </div>
 
-          <div className="bg-card border border-border rounded-xl p-6 hover:border-primary transition-all duration-300">
-            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-              <span className="text-2xl">✨</span>
+          <div className="bg-card border border-border rounded-xl p-5 hover:border-primary transition-all duration-300">
+            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+              <span className="text-xl">💻</span>
             </div>
-            <h3 className="text-xl font-bold text-foreground mb-2">Design Thinking Workshop</h3>
-            <p className="text-primary font-medium mb-2">IDEO U</p>
-            <p className="text-sm text-muted-foreground">2021</p>
+            <h3 className="text-lg font-bold text-foreground mb-1">Object-Oriented Programming</h3>
+            <p className="text-primary font-medium text-sm">NASSCOM</p>
+          </div>
+
+          <div className="bg-card border border-border rounded-xl p-5 hover:border-primary transition-all duration-300">
+            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+              <span className="text-xl">📐</span>
+            </div>
+            <h3 className="text-lg font-bold text-foreground mb-1">MATLAB Onramp</h3>
+            <p className="text-primary font-medium text-sm">MATLAB</p>
+          </div>
+
+          <div className="bg-card border border-border rounded-xl p-5 hover:border-primary transition-all duration-300">
+            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+              <span className="text-xl">⚙️</span>
+            </div>
+            <h3 className="text-lg font-bold text-foreground mb-1">C Language</h3>
+            <p className="text-primary font-medium text-sm">Lasya Infotech</p>
+          </div>
+
+          <div className="bg-card border border-border rounded-xl p-5 hover:border-primary transition-all duration-300">
+            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+              <span className="text-xl">☁️</span>
+            </div>
+            <h3 className="text-lg font-bold text-foreground mb-1">AWS GenAI Ideathon</h3>
+            <p className="text-primary font-medium text-sm">AWS</p>
+          </div>
+
+          <div className="bg-card border border-border rounded-xl p-5 hover:border-primary transition-all duration-300">
+            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+              <span className="text-xl">🏢</span>
+            </div>
+            <h3 className="text-lg font-bold text-foreground mb-1">Internship Completion & LOR</h3>
+            <p className="text-primary font-medium text-sm">CloudBox99</p>
+          </div>
+
+          <div className="bg-card border border-border rounded-xl p-5 hover:border-primary transition-all duration-300">
+            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+              <span className="text-xl">🏆</span>
+            </div>
+            <h3 className="text-lg font-bold text-foreground mb-1">Smart India Hackathon</h3>
+            <p className="text-primary font-medium text-sm">Internal Selection</p>
+          </div>
+
+          <div className="bg-card border border-border rounded-xl p-5 hover:border-primary transition-all duration-300">
+            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+              <span className="text-xl">🥽</span>
+            </div>
+            <h3 className="text-lg font-bold text-foreground mb-1">XR Jumpstart Program</h3>
+            <p className="text-primary font-medium text-sm">XR MONK</p>
+          </div>
+
+          <div className="bg-card border border-border rounded-xl p-5 hover:border-primary transition-all duration-300">
+            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+              <span className="text-xl">🎨</span>
+            </div>
+            <h3 className="text-lg font-bold text-foreground mb-1">Graphic Designing</h3>
+            <p className="text-primary font-medium text-sm">Pehchaan The Street School</p>
+          </div>
+
+          <div className="bg-card border border-border rounded-xl p-5 hover:border-primary transition-all duration-300">
+            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+              <span className="text-xl">🧠</span>
+            </div>
+            <h3 className="text-lg font-bold text-foreground mb-1">Affective Computing</h3>
+            <p className="text-primary font-medium text-sm">NPTEL</p>
+          </div>
+
+          <div className="bg-card border border-border rounded-xl p-5 hover:border-primary transition-all duration-300">
+            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+              <span className="text-xl">🤖</span>
+            </div>
+            <h3 className="text-lg font-bold text-foreground mb-1">AI Workshop</h3>
+            <p className="text-primary font-medium text-sm">Ecell IIT Hyderabad</p>
           </div>
         </div>
       </div>
