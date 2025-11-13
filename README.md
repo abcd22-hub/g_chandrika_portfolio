@@ -1,73 +1,118 @@
-# Welcome to your Lovable project
+# Orange Hues Design - My Portfolio Website
 
-## Project info
+Welcome to my personal portfolio website, "Orange Hues Design"! This project showcases my skills, experience, and projects as a software developer. Built with modern web technologies, it's designed to be responsive, visually appealing, and easy to navigate.
 
-**URL**: https://lovable.dev/projects/82173d68-9246-4634-bee9-390314c3de9b
+## Table of Contents
 
-## How can I edit this code?
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running Locally](#running-locally)
+- [Project Structure](#project-structure)
+- [Deployment](#deployment)
+- [Contact](#contact)
+- [License](#license)
 
-There are several ways of editing your application.
+## About
 
-**Use Lovable**
+This portfolio website serves as a central hub to present my professional journey, including:
+- A detailed "About Me" section.
+- A showcase of my key projects with descriptions and links.
+- A timeline of my professional experience.
+- Contact information for collaboration or inquiries.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/82173d68-9246-4634-bee9-390314c3de9b) and start prompting.
+## Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Responsive Design:** Optimized for various screen sizes, from mobile devices to large desktops.
+- **Project Showcase:** Dedicated section to highlight my work with images and descriptions.
+- **Interactive UI:** Built with modern UI components for a smooth user experience.
+- **Clear Navigation:** Easy access to different sections of the portfolio.
+- **Modern Tech Stack:** Leverages the latest web development tools and practices.
 
-**Use your preferred IDE**
+## Technologies Used
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+This project is built using the following key technologies:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **React:** A JavaScript library for building user interfaces.
+- **TypeScript:** A typed superset of JavaScript that compiles to plain JavaScript.
+- **Vite:** A fast build tool that provides an instant development server.
+- **Tailwind CSS:** A utility-first CSS framework for rapidly building custom designs.
+- **Shadcn/ui:** A collection of re-usable components built using Radix UI and Tailwind CSS.
+- **ESLint:** For linting and maintaining code quality.
 
-Follow these steps:
+## Getting Started
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Prerequisites
 
-# Step 3: Install the necessary dependencies.
-npm i
+Before you begin, ensure you have the following installed:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+- **Node.js** (LTS version recommended)
+- **npm** or **Yarn** or **Bun** (npm is typically included with Node.js)
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/abcd22-hub/orange-hues-design.git
+    cd orange-hues-design
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or yarn install
+    # or bun install
+    ```
+
+### Running Locally
+
+To start the development server:
+
+```bash
 npm run dev
+# or yarn dev
+# or bun dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173` (or another port if 5173 is in use).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Project Structure
 
-**Use GitHub Codespaces**
+The project follows a standard React application structure:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+.
+├── public/                 # Static assets
+├── src/
+│   ├── components/         # Reusable UI components
+│   │   ├── ui/             # Shadcn/ui components
+│   │   └── ...
+│   ├── hooks/              # Custom React hooks
+│   ├── lib/                # Utility functions
+│   ├── pages/              # Page-level components (Home, About, Portfolio, Experience)
+│   ├── App.tsx             # Main application component
+│   ├── main.tsx            # Entry point of the React application
+│   └── ...
+├── index.html              # Main HTML file
+├── package.json            # Project dependencies and scripts
+├── tailwind.config.ts      # Tailwind CSS configuration
+├── tsconfig.json           # TypeScript configuration
+└── vite.config.ts          # Vite configuration
+```
 
-## What technologies are used for this project?
+## Deployment
 
-This project is built with:
+This project is designed to be easily deployable to various hosting platforms. For GitHub Pages, you might need to configure the `base` option in `vite.config.ts` if deploying to a sub-path.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Contact
 
-## How can I deploy this project?
+Feel free to reach out to me through my website's contact form or connect with me on [LinkedIn/Other Platform].
 
-Simply open [Lovable](https://lovable.dev/projects/82173d68-9246-4634-bee9-390314c3de9b) and click on Share -> Publish.
+## License
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is licensed under the MIT License - see the `LICENSE` file for details.
