@@ -74,9 +74,7 @@ const About = () => {
             <div className="px-4 py-2 bg-primary/10 border border-primary/20 rounded-lg">
               <span className="text-sm font-medium text-primary">NPTEL Certified</span>
             </div>
-            <div className="px-4 py-2 bg-primary/10 border border-primary/20 rounded-lg">
-              <span className="text-sm font-medium text-primary">Design Club Member</span>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -106,56 +104,6 @@ const About = () => {
               </div>
             );
           })}
-        </div>
-        <div className="bg-card border border-border rounded-xl p-8 text-center">
-          <h3 className="text-xl font-bold text-foreground mb-4">My Favorite Tools</h3>
-          <div className="flex flex-wrap justify-center gap-3">
-            {["Figma", "Miro", "HTML/CSS/JS", "Google Workspace", "React"].map((tool, idx) => (
-              <span 
-                key={idx}
-                className="px-4 py-2 bg-secondary text-foreground rounded-lg text-sm font-medium"
-              >
-                {tool}
-              </span>
-            ))}
-          </div>
-          <p className="text-muted-foreground mt-6 leading-relaxed">
-            <strong className="text-foreground">Design Values:</strong> I'm committed to creating inclusive, 
-            accessible, and innovative experiences that empower users and solve real-world problems.
-          </p>
-        </div>
-      </div>
-
-      {/* Skills & Toolbox */}
-      <div className="mb-20">
-        <h2 className="text-3xl font-bold text-foreground text-center mb-12">
-          Skills & <span className="text-primary">Toolbox</span>
-        </h2>
-        <div className="grid md:grid-cols-2 gap-8 mb-8">
-          {designTools.map((tool, index) => (
-            <div key={index} className="bg-card border border-border rounded-xl p-6 hover:border-primary transition-all duration-300">
-              <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
-                  <Figma className="w-5 h-5 text-primary" />
-                </div>
-                <h3 className="text-xl font-bold text-foreground">{tool.name}</h3>
-              </div>
-              <p className="text-sm text-muted-foreground">{tool.description}</p>
-            </div>
-          ))}
-        </div>
-        <div className="bg-card border border-border rounded-xl p-8">
-          <h3 className="text-lg font-bold text-foreground mb-6 text-center">All Skills</h3>
-          <div className="flex flex-wrap gap-3 justify-center">
-            {skills.map((skill, idx) => (
-              <span 
-                key={idx}
-                className="px-4 py-2 bg-secondary text-foreground rounded-lg text-sm font-medium hover:bg-primary hover:text-primary-foreground transition-colors cursor-default"
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
         </div>
       </div>
 
@@ -210,7 +158,7 @@ const About = () => {
             </Link>
           </Button>
           <Button asChild variant="outline" size="lg" className="gap-2">
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/g-chandrika?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
               <Linkedin className="w-4 h-4" />
               LinkedIn
             </a>
@@ -226,7 +174,7 @@ const About = () => {
             <Github className="w-5 h-5" />
           </a>
           <a 
-            href="mailto:hello@example.com"
+            href="mailto:g.chandrika22@ifheindia.org"
             className="w-10 h-10 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground flex items-center justify-center transition-colors"
           >
             <Mail className="w-5 h-5" />

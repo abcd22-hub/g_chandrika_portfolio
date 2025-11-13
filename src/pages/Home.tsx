@@ -23,10 +23,10 @@ const Home = () => {
                 Welcome to my portfolio
               </h2>
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
-                Hi, I'm <span className="text-primary">Alex Morgan</span>
+                Hi, I'm <span className="text-primary">G.Chandrika</span>
               </h1>
               <p className="text-2xl text-muted-foreground font-medium">
-                UI/UX Designer
+                Computer science engineer
               </p>
             </div>
 
@@ -35,8 +35,8 @@ const Home = () => {
               <div className="absolute -inset-6 bg-primary/20 rounded-full blur-3xl"></div>
               <div className="relative w-64 h-64 sm:w-72 sm:h-72 rounded-full overflow-hidden border-8 border-primary shadow-glow">
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=800&fit=crop" 
-                  alt="Alex Morgan - UI/UX Designer"
+                  src="https://i.postimg.cc/ZYc0Z0HV/my-image-1.jpg" 
+                  alt="G.Chandrika - UI/UX Designer"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -51,18 +51,6 @@ const Home = () => {
               Passionate about crafting beautiful, user-centered digital experiences. 
               I transform complex problems into intuitive, elegant designs that users love.
             </p>
-            <div className="flex flex-wrap gap-4">
-              <Button size="lg" className="gap-2 text-base">
-                <Download className="w-5 h-5" />
-                Download CV
-              </Button>
-              <Link to="/contact">
-                <Button size="lg" variant="outline" className="gap-2 text-base">
-                  Contact Me
-                  <ArrowRight className="w-5 h-5" />
-                </Button>
-              </Link>
-            </div>
           </div>
         </div>
 
@@ -71,9 +59,11 @@ const Home = () => {
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <h2 className="text-4xl font-bold text-foreground">About Me</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a UI/UX designer with a passion for creating intuitive, user-centered experiences that solve real problems. 
-              My approach combines data-driven insights with creative design thinking to deliver solutions that not only look beautiful 
-              but also drive meaningful results. I believe great design should be invisible—it should just work.
+              Creative and detail-oriented UI/UX Designer with hands-on experience in designing engaging
+ digital interfaces and interactive prototypes using Figma. Skilled in translating business
+ requirements into visually appealing, user-centered designs and collaborating with cross-functional
+ teams for real-world product launches. Passionate about problem-solving, usability testing, and
+ accessible design.
             </p>
             
             {/* Key Skills */}
@@ -115,29 +105,32 @@ const Home = () => {
               <CarouselContent className="-ml-4">
                 <CarouselItem className="pl-4 md:basis-1/2 lg:basis-1/3">
                   <ProjectCard
-                    title="E-commerce Mobile App"
-                    role="Lead UI/UX Designer"
-                    description="Designed a complete mobile shopping experience with intuitive navigation and seamless checkout flow, resulting in 40% increase in conversions."
+                    title="Pickle Website"
+                    role="Remote | Sep 2025 – Nov 2025"
+                    description="Delivered paid UI/UX design and front-end development for a small business’s pickle brand website. Designed user-friendly layouts and interactive interfaces using HTML, CSS, and JavaScript. Conducted client requirements gathering, usability revisions, and optimized site for responsiveness. Managed project independently and delivered creative, conversion-focused solutions."
+                    image="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop"
+                    tools={["HTML", "CSS", "JavaScript", "UI/UX Design"]}
+                    link="https://abcd22-hub.github.io/pickel_website/"
+                  />
+                </CarouselItem>
+                <CarouselItem className="pl-4 md:basis-1/2 lg:basis-1/3">
+                  <ProjectCard
+                    title="SarasCan Website"
+                    role="Html, CSS, JS"
+                    description="Built a responsive, clean website for a Canadian cloud services company. Focused on professional design, intuitive navigation, and cross-device compatibility."
+                    image="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop"
+                    tools={["HTML", "CSS", "JavaScript"]}
+                    link="https://sarascan.ca/"
+                  />
+                </CarouselItem>
+                <CarouselItem className="pl-4 md:basis-1/2 lg:basis-1/3">
+                  <ProjectCard
+                    title="athENA (Figma Prototype) — SIH Hackathon Participation"
+                    role="Figma Prototype"
+                    description="Designed and prototyped a comprehensive career guidance platform in Figma as part of the Smart India Hackathon. Integrated psychometric tests, stage-wise counseling, study abroad and upskilling support, and interactive tools. Focused on delivering NEP 2020-aligned, data-driven, and personalized career recommendations for students and professionals."
                     image="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop"
-                    tools={["Figma", "React Native", "Prototyping"]}
-                  />
-                </CarouselItem>
-                <CarouselItem className="pl-4 md:basis-1/2 lg:basis-1/3">
-                  <ProjectCard
-                    title="SaaS Dashboard Redesign"
-                    role="Senior UX Designer"
-                    description="Reimagined analytics dashboard for B2B platform, improving data visualization and reducing user onboarding time by 60%."
-                    image="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
-                    tools={["Sketch", "Vue.js", "Data Viz"]}
-                  />
-                </CarouselItem>
-                <CarouselItem className="pl-4 md:basis-1/2 lg:basis-1/3">
-                  <ProjectCard
-                    title="Health & Fitness Web App"
-                    role="UI Designer"
-                    description="Created engaging workout tracking interface with social features, achieving 4.8 star rating and 100k+ active users."
-                    image="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=800&h=600&fit=crop"
-                    tools={["Adobe XD", "React", "Animation"]}
+                    tools={["Figma", "Prototyping", "UI/UX Design", "User Research"]}
+                    link="https://www.figma.com/design/VftKwPLGOEm6bsu2aeoJUo/athENA?node-id=0-1&t=SMcXNovgET8QYjTb-1"
                   />
                 </CarouselItem>
               </CarouselContent>
@@ -167,25 +160,18 @@ const Home = () => {
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               {/* Education */}
               <div className="bg-card border border-border rounded-lg p-6 hover:border-primary transition-colors">
-                <h3 className="text-2xl font-bold text-foreground mb-4">Education</h3>
+                <h3 className="text-2xl font-bold text-foreground mb-4">EDUCATION</h3>
                 <div className="space-y-3">
-                  <p className="text-lg font-semibold text-primary">Bachelor of Design</p>
-                  <p className="text-foreground">Stanford University</p>
-                  <p className="text-sm text-muted-foreground">2015 - 2019</p>
-                  <div className="pt-3 space-y-2">
-                    <p className="text-sm text-muted-foreground flex items-start">
-                      <span className="text-primary mr-2">▸</span>
-                      <span>Focus: Human-Computer Interaction & Visual Design</span>
-                    </p>
-                    <p className="text-sm text-muted-foreground flex items-start">
-                      <span className="text-primary mr-2">▸</span>
-                      <span>Design Thinking Club President</span>
-                    </p>
-                    <p className="text-sm text-muted-foreground flex items-start">
-                      <span className="text-primary mr-2">▸</span>
-                      <span>Dean's List all semesters</span>
-                    </p>
-                  </div>
+                  <p className="text-lg font-semibold text-primary">ICFAI UNIVERSITY, Department of Computer Science</p>
+                  <p className="text-sm text-muted-foreground">2022–2026</p>
+                </div>
+                <div className="space-y-3 mt-4">
+                  <p className="text-lg font-semibold text-primary">SRI CHAITANYA JUNIOR COLLEGE, Intermediate</p>
+                  <p className="text-sm text-muted-foreground">2020–2022 | CGPA 8.33</p>
+                </div>
+                <div className="space-y-3 mt-4">
+                  <p className="text-lg font-semibold text-primary">ST.ANNS HIGH SCHOOL, 10th</p>
+                  <p className="text-sm text-muted-foreground">2020 | CGPA 10.00</p>
                 </div>
               </div>
 
@@ -194,54 +180,29 @@ const Home = () => {
                 <h3 className="text-2xl font-bold text-foreground mb-4">Key Experiences</h3>
                 <div className="space-y-4">
                   <div>
-                    <p className="font-semibold text-foreground">Senior UX Designer</p>
-                    <p className="text-sm text-primary">TechCorp Inc.</p>
-                    <p className="text-xs text-muted-foreground mb-2">2021 - Present</p>
+                    <p className="font-semibold text-foreground">Web Development UI/UX Intern</p>
+                    <p className="text-sm text-primary">CloudBox99</p>
+                    <p className="text-xs text-muted-foreground mb-2">Jun 2024 - Jul 2024</p>
                   </div>
                   <div>
-                    <p className="font-semibold text-foreground">UI Designer</p>
-                    <p className="text-sm text-primary">Creative Studio</p>
-                    <p className="text-xs text-muted-foreground mb-2">2019 - 2021</p>
+                    <p className="font-semibold text-foreground">Graphic Design Intern</p>
+                    <p className="text-sm text-primary">Pehchaan The Street School Trust</p>
+                    <p className="text-xs text-muted-foreground mb-2">Dec 2024 - Apr 2025</p>
                   </div>
                   <div>
-                    <p className="font-semibold text-foreground">Freelance Designer</p>
-                    <p className="text-sm text-primary">Various Clients</p>
-                    <p className="text-xs text-muted-foreground">2018 - 2019</p>
+                    <p className="font-semibold text-foreground">Documentation Head</p>
+                    <p className="text-sm text-primary">Game Development Club, IcfaiTech</p>
+                    <p className="text-xs text-muted-foreground mb-2">Jan 2024 - Present</p>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-foreground">Freelance UI/UX Designer</p>
+                    <p className="text-sm text-primary">Pickle Website Project</p>
+                    <p className="text-xs text-muted-foreground">Sep 2025 - Nov 2025</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Skills & Tools */}
-            <div className="bg-card border border-border rounded-lg p-8 mb-8">
-              <h3 className="text-2xl font-bold text-foreground mb-6 text-center">Skills & Tools</h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                <div className="text-center space-y-2">
-                  <div className="w-16 h-16 mx-auto bg-primary/10 rounded-lg flex items-center justify-center">
-                    <Palette className="w-8 h-8 text-primary" />
-                  </div>
-                  <p className="text-sm font-medium text-foreground">Figma</p>
-                </div>
-                <div className="text-center space-y-2">
-                  <div className="w-16 h-16 mx-auto bg-primary/10 rounded-lg flex items-center justify-center">
-                    <Code className="w-8 h-8 text-primary" />
-                  </div>
-                  <p className="text-sm font-medium text-foreground">HTML/CSS/JS</p>
-                </div>
-                <div className="text-center space-y-2">
-                  <div className="w-16 h-16 mx-auto bg-primary/10 rounded-lg flex items-center justify-center">
-                    <Users className="w-8 h-8 text-primary" />
-                  </div>
-                  <p className="text-sm font-medium text-foreground">Usability Testing</p>
-                </div>
-                <div className="text-center space-y-2">
-                  <div className="w-16 h-16 mx-auto bg-primary/10 rounded-lg flex items-center justify-center">
-                    <Code className="w-8 h-8 text-primary" />
-                  </div>
-                  <p className="text-sm font-medium text-foreground">React</p>
-                </div>
-              </div>
-            </div>
 
             <div className="text-center">
               <Link to="/experience">

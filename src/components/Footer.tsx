@@ -19,7 +19,7 @@ const Footer = () => {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/g-chandrika?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -37,7 +37,7 @@ const Footer = () => {
               <Twitter className="h-6 w-6" />
             </a>
             <a
-              href="mailto:designer@example.com"
+              href="mailto:g.chandrika22@ifheindia.org"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="Email"
             >

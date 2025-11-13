@@ -8,9 +8,10 @@ interface ProjectCardProps {
   description: string;
   image: string;
   tools: string[];
+  link?: string;
 }
 
-const ProjectCard = ({ title, role, description, image, tools }: ProjectCardProps) => {
+const ProjectCard = ({ title, role, description, image, tools, link }: ProjectCardProps) => {
   return (
     <Card className="group bg-card border-border hover:border-primary transition-all duration-300 overflow-hidden hover:shadow-glow">
       <div className="relative overflow-hidden aspect-video bg-muted">
@@ -20,9 +21,17 @@ const ProjectCard = ({ title, role, description, image, tools }: ProjectCardProp
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-6">
-          <Button variant="default" size="sm" className="gap-2">
-            View Project <ExternalLink className="w-4 h-4" />
-          </Button>
+          {link ? (
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              <Button variant="default" size="sm" className="gap-2">
+                View Project <ExternalLink className="w-4 h-4" />
+              </Button>
+            </a>
+          ) : (
+            <Button variant="default" size="sm" className="gap-2">
+              View Project <ExternalLink className="w-4 h-4" />
+            </Button>
+          )}
         </div>
       </div>
       <CardContent className="p-6 space-y-3">
