@@ -42,7 +42,7 @@ const ProjectCard = ({ title, role, description, image, tools, link }: ProjectCa
         <p className="text-muted-foreground text-sm leading-relaxed">{description}</p>
         <div className="flex flex-wrap gap-2 pt-2">
           {tools.map((tool, index) => (
-            <span 
+            <span
               key={index}
               className="px-3 py-1 text-xs font-medium bg-secondary text-foreground rounded-full"
             >
@@ -50,6 +50,15 @@ const ProjectCard = ({ title, role, description, image, tools, link }: ProjectCa
             </span>
           ))}
         </div>
+        {link && (
+          <div className="pt-4">
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              <Button variant="default" size="sm" className="w-full gap-2">
+                View Project <ExternalLink className="w-4 h-4" />
+              </Button>
+            </a>
+          </div>
+        )}
       </CardContent>
     </Card>
   );
