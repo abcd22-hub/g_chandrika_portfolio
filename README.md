@@ -1,6 +1,6 @@
-# Orange Hues Design - My Portfolio Website
+# G.CHANDRIKA - My Portfolio Website
 
-Welcome to my personal portfolio website, "Orange Hues Design"! This project showcases my skills, experience, and projects as a software developer. Built with modern web technologies, it's designed to be responsive, visually appealing, and easy to navigate.
+Welcome to my personal portfolio website, "G.Chandrika Portfolio"! This project showcases my skills, experience, and projects as a software developer. Built with modern web technologies, it's designed to be responsive, visually appealing, and easy to navigate.
 
 ## Table of Contents
 
