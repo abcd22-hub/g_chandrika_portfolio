@@ -15,7 +15,8 @@ const Portfolio = () => {
       role: "React, Tailwind",
       description: "Developed user dashboards supporting AI-powered assessment and a mental health chatbot. Emphasized engaging, accessible UI/UX for diverse users.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
-      tools: ["React", "Tailwind CSS", "AI Integration"]
+      tools: ["React", "Tailwind CSS", "AI Integration"],
+      link: "https://abcd22-hub.github.io/MindTrack_1/"
     },
     {
       title: "SarasCan Website",
